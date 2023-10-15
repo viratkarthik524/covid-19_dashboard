@@ -1,0 +1,37 @@
+.topDistricts-list {
+  display: flex;
+  align-items: center;
+}
+.topDistricts-paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+
+  color: #94a3b8;
+}
+.topDistricts-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
+  color: #94a3b8;
+  margin-left: 19px;
+  margin-bottom: 0px;
+}
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .topDistricts-paragraph {
+    font-size: 24px;
+  }
+  .topDistricts-name {
+    font-size: 16px;
+  }
+}

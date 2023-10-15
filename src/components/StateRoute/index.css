@@ -1,0 +1,180 @@
+.backgroundColor {
+  background-color: #161625;
+}
+.route-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #161625;
+}
+
+.state-route-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #161625;
+}
+.state-tested-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.stateRoute-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0ea5e9;
+  background: rgba(2, 132, 199, 0.16);
+  border-radius: 32px;
+  padding: 12px;
+}
+.stateRoute-tested {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #94a3b8;
+  text-align: right;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.stateRoute-total-tested {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+  text-align: right;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .state-tested-container {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 80%;
+  }
+  .stateRoute-heading {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    font-family: 'HK Grotesk';
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .stateRoute-tested {
+    font-size: 16px;
+  }
+  .stateRoute-total-tested {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.date-align {
+  margin-left: -20px;
+
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.stateRoute-date {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #cbd5e1;
+  margin-top: -5px;
+}
+@media screen and (min-width: 768px) {
+  .date-align {
+    align-self: flex-start;
+    margin-left: 70px;
+    margin-top: -6px;
+    margin-left: 10%;
+  }
+  .stateRoute-date {
+    font-size: 18px;
+  }
+}
+.stateRoute-top-districts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 45px;
+  margin-top: 20px;
+}
+.ul-container {
+  column-count: 2;
+  column-gap: 10px;
+}
+@media screen and (min-width: 768px) {
+  .stateRoute-top-districts {
+    margin-bottom: 90px;
+  }
+  .ul-container {
+    column-count: 4;
+    column-gap: 10px;
+    margin-left: 0px;
+  }
+}
+
+.stateRoute-top-district-list {
+  list-style-type: none;
+  color: #94a3b8;
+}
+
+.stateRoute-top-districts-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  align-self: flex-start;
+  list-style-type: none;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .stateRoute-top-districts-heading {
+    font-size: 32px;
+    margin-left: 0px;
+  }
+}
+.stateRoute-Confirmed {
+  color: #ff073a;
+}
+.stateRoute-Active {
+  color: #007bff;
+}
+.stateRoute-Recovered {
+  color: #28a745;
+}
+.stateRoute-Deceased {
+  color: #6c757d;
+}
+.stateRoute-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.stateCard-alignment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
